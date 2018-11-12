@@ -1,4 +1,4 @@
-# how-to-load-images-in-a-cell-in-wpf-and-uwp-treegrid
+# How to load images in a cell in wpf and uwp treegrid?
 
 ## About the example
 
