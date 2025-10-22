@@ -1,13 +1,10 @@
-# How to load images in a cell in wpf and uwp treegrid?
+# How to load images in a cell in WPF / UWP TreeGrid?
 
-## About the example
+This example illustrates how to load images in a cell in [WPF TreeGrid](https://www.syncfusion.com/wpf-controls/treegrid) and [UWP TreeGrid](https://www.syncfusion.com/uwp-ui-controls/treegrid) (SfTreeGrid).
 
-This example illustrates how to load images in a cell in [WPF TreeGrid](https://www.syncfusion.com/wpf-controls/treegrid) and [UWP TreeGrid](https://www.syncfusion.com/uwp-ui-controls/treegrid).
+You can add the image to TreeGrid cell by using [TreeGridTemplateColumn](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.TreeGrid.TreeGridTemplateColumn.html).
 
-You can add the image to `TreeGrid` cell by using `TreeGridTemplateColumn`.
-
-## XAML code:
-
+### XAML:
 ``` xml
 <syncfusion:TreeGridTemplateColumn MappingName="ImageLink">
     <syncfusion:TreeGridTemplateColumn.CellTemplate>
@@ -19,8 +16,7 @@ You can add the image to `TreeGrid` cell by using `TreeGridTemplateColumn`.
 </syncfusion:TreeGridTemplateColumn>
 ```
 
-## c# code:
-
+### C#:
 ``` c#
 public class StringToImageConverter : IValueConverter
 {
@@ -36,3 +32,5 @@ public class StringToImageConverter : IValueConverter
     }
 }
 ```
+
+![How to load images in a cell in WPF / UWP TreeGrid](Add_image_to_cell.png)
