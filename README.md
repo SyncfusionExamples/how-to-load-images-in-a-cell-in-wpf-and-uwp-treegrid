@@ -33,4 +33,4 @@ public class StringToImageConverter : IValueConverter
 }
 ```
 
-![How to load images in a cell in WPF / UWP TreeGrid](Add_image_to_cell.png)
+![Load Images in cells](ShowImagesInCell.png)
